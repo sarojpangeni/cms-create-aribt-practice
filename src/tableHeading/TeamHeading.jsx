@@ -1,0 +1,1 @@
+export const TeamHeading = ["Profile Image", "Name","Designation", "Description", "Link"];

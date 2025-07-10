@@ -1,0 +1,1 @@
+export const AboutUsHeading = ["Icon", "Title", "Description", "link"];

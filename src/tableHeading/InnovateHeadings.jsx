@@ -1,0 +1,1 @@
+export const InnovateHeading = ["Title", "Description", "Items"];

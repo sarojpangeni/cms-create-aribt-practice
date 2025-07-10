@@ -1,0 +1,1 @@
+export const ContactHeading = ["Phone", "Email", "Address"];
