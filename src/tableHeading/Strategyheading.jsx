@@ -1,0 +1,1 @@
+export const StrategyHeading = ["Icon", "Title", "Description", "link"];

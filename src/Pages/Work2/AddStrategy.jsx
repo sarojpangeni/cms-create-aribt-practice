@@ -2,12 +2,11 @@ import { useState, useRef } from "react";
 import Modal from "../../Component/common/Modal";
 import JoditEditor from "jodit-react";
 
-export default function AddAboutus({ isOpen, onClose, onSuccess }) {
+export default function AddStrategy({ isOpen, onClose, onSuccess }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [link, setLink] = useState("");
   const [iconFile, setIconFile] = useState(null);
-  const [previewUrl, setPreviewUrl] = useState("");
 
   const editor = useRef(null);
 
@@ -31,7 +30,6 @@ export default function AddAboutus({ isOpen, onClose, onSuccess }) {
       description,
       link,
       iconName: iconFile?.name || "",
-      iconPreview: previewUrl,
     };
 
     onSuccess?.(newService);
@@ -44,18 +42,17 @@ export default function AddAboutus({ isOpen, onClose, onSuccess }) {
     setDescription("");
     setLink("");
     setIconFile(null);
-    setPreviewUrl("");
   };
 
   return (
-    <Modal title="Add About Us" isOpen={isOpen} onClose={onClose}>
+    <Modal title="Add Strategy" isOpen={isOpen} onClose={onClose}>
       <div className="space-y-4">
         <div>
           <label className="block font-medium mb-1">Title</label>
           <input
             type="text"
             className="w-full border rounded p-2"
-            placeholder="Enter service title"
+            placeholder="Enter strategy title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
@@ -93,14 +90,14 @@ export default function AddAboutus({ isOpen, onClose, onSuccess }) {
         <div className="flex justify-end gap-4 mt-4">
           <button
             type="button"
-            className="px-4 py-2 bg-gray-300 rounded"
+            className="px-4 py-2 bg-gray-300 cursor-pointer rounded"
             onClick={onClose}
           >
             Cancel
           </button>
           <button
             type="button"
-            className="px-4 py-2 bg-blue-600 text-white rounded"
+            className="px-4 py-2 bg-blue-600 cursor-pointer text-white rounded"
             onClick={handleSubmit}
           >
             Submit

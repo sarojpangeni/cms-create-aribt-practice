@@ -1,0 +1,1 @@
+export const BlogHeading = ["Name", "Title", "Date", "Description", "URL"]

@@ -9,6 +9,8 @@ import Services from './Pages/Services/Services'
 import AboutUs from './Pages/AboutUs/AboutUs'
 import Contact from './Pages/Contact/Contact'
 import OurTeam from './Pages/Team/OurTeam'
+import Work from './Pages/Work/Work'
+import Strategy from './Pages/Work2/Strategy'
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
         <Route path='/about' element={<AboutUs />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/team' element={<OurTeam />} />
+        <Route path='/work'  element={<Work />} />
+        <Route path='/work2'  element={<Strategy />} />
       </Route>
      </Routes>
     </>

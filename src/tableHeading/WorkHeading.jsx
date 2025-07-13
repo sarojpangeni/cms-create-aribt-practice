@@ -1,0 +1,1 @@
+export const WorkHeading = ["Image", "Title", "Sub Title"];

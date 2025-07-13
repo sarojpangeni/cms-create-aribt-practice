@@ -15,7 +15,7 @@ const Innovate = () => {
     <>
       <ComponentCard
         title="Innovate"
-        buttonLabel="Add New"
+        buttonLabel="Add Innovate"
         onButtonClick={() => setModalOpen(true)}
       >
         <DynamicTable
