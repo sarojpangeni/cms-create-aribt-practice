@@ -37,7 +37,7 @@ function Contact() {
 
     return (
         <>
-            <div className="mt-8 bg-white p-6 shadow rounded max-w-3xl mx-auto space-y-4">
+            <div className="mt-8 bg-white p-6 shadow rounded mx-auto space-y-4">
                 <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
 
                 {contactMainData && !isEditingMain ? (

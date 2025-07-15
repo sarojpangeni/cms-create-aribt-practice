@@ -11,6 +11,7 @@ import Contact from './Pages/Contact/Contact'
 import OurTeam from './Pages/Team/OurTeam'
 import Work from './Pages/Work/Work'
 import Strategy from './Pages/Work2/Strategy'
+import Blog from './Pages/Blog/Blog'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/team' element={<OurTeam />} />
         <Route path='/work'  element={<Work />} />
         <Route path='/work2'  element={<Strategy />} />
+        <Route path='/blog' element={<Blog />} />
       </Route>
      </Routes>
     </>

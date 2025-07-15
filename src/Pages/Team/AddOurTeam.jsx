@@ -42,7 +42,6 @@ function AddOurTeam({ isOpen, onClose, onSuccess }) {
         onSuccess?.(newEntry);
         onClose();
 
-        // Reset
         setName("");
         setDesignation("");
         setDescription("");
@@ -57,8 +56,6 @@ function AddOurTeam({ isOpen, onClose, onSuccess }) {
     return (
         <Modal title="Add Team Member" isOpen={isOpen} onClose={onClose} size="lg">
             <div className="space-y-4">
-                {/* Profile Image on Top */}
-                {/* Profile Image on Top (Clickable Avatar) */}
                 <div className="flex flex-col items-center">
                     <label htmlFor="teamImageUpload" className="cursor-pointer">
                         {imagePreview ? (

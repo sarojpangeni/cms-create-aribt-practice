@@ -1,1 +1,1 @@
-export const BlogHeading = ["Name", "Title", "Date", "Description", "URL"]
+export const BlogHeading = ["Image", "Name", "Title", "Date", "Description", "URL"]

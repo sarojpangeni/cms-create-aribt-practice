@@ -105,7 +105,7 @@ function AboutUs() {
         }
       /> */}
 
-            <div className="mt-8 bg-white p-6 shadow rounded w-fulls mx-auto space-y-4">
+            <div className="mt-8 bg-white p-6 shadow rounded mx-auto space-y-4">
                 <h2 className="text-xl font-semibold mb-4">About Us Description</h2>
 
                 {aboutUsMainData && !isEditingMain ? (
