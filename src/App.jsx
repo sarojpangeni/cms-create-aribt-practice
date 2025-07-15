@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Layout from './HOC/layout'
 import Home from './Pages/Home'
 import Innovate from './Pages/Innovate/Inovate'
 import AddBanner from './Pages/banner/AddBanner'
@@ -12,6 +11,7 @@ import OurTeam from './Pages/Team/OurTeam'
 import Work from './Pages/Work/Work'
 import Strategy from './Pages/Work2/Strategy'
 import Blog from './Pages/Blog/Blog'
+import Layout from './HOC/layout'
 
 function App() {
 
