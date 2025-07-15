@@ -11,7 +11,7 @@ import OurTeam from './Pages/Team/OurTeam'
 import Work from './Pages/Work/Work'
 import Strategy from './Pages/Work2/Strategy'
 import Blog from './Pages/Blog/Blog'
-import Layout from './HOC/layout'
+import Layout from './Component/HOC/Layout'
 
 function App() {
 
